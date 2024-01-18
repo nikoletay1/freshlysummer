@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*pinterest lookalike style starts*/
+	.row{
+		text-align: centre;}
+
+	p{
+	padding-bottom: 25px;}
+
+	img:not(.logo) {
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 10px;
+		border-radius: 8%;}
+
+
+/*pinterest lookalike style starts*/

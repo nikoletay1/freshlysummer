@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: #FFFBEE;
+	font-family: "GlacialIndifference-Regular";
+	color: black;
+	font-size: 100%}
+		
+h1 {
+	color: black;
+	font-family:"GlacialIndifference-Bold";
+	font-size: 125%;
+	text-align: center;
+	padding-bottom: 0px;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;}
+		
+p {
+	color: black;
+	font-family: "GlacialIndifference-Regular";
+	font-size: 100%;
+	text-align: center;
+	padding-top: 0px;
+	line-height: 1.2;
+	border-top: -1px;
+	margin: 0;
+	padding: 0;}
+		
+/*navigation bar style start*/
+nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;}
+
+nav a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+	font-family: "GlacialIndifference-Regular";
+	color:black;
+	text-align: center;
+	padding-right: 16px;
+	padding-left: 16px;
+	text-decoration: none;
+	font-size: 17px;}
+		
+nav a:hover {
+	color: black;
+	font-family: 'GlacialIndifference-Regular';
+	text-decoration: underline;}
+		
+img {
+	padding: 0px ;} 
+/*navigation bar style end*/
+
+/*footer*/
+.footer{
+			font-size: 75%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		
+
+
